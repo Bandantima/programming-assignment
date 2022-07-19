@@ -54,6 +54,6 @@ try:
                 if (number % i) == 0:
                     break
                 else:
-                    print(number)
+                    logging.info(number)
 except exception as e:
     logging.exception(e)
